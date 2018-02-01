@@ -1,7 +1,7 @@
 //Rewrite to www
 Options +FollowSymLinks
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^shanemaloney.droppages.com[nc]
+RewriteCond %{HTTP_HOST} http://shanemaloney.droppages.com[nc]
 RewriteRule ^(.*)$ http://www.shanemaloney.droppages.com/$1 [r=301,nc]
 
 //Prevent viewing of .htaccess file
